@@ -1,12 +1,11 @@
 import React, { useState, useEffect } from "react"
 import Product from "./Product"
 
-function ProductContainer() {
+function ProductContainer({url}) {
   const [loading, setLoading] = useState(true)
   const [data, setData] = useState(null)
 
   useEffect(async () => {
-    const url = "http://localhost:5000/products/1"
     const response = await fetch(url)
     if (response.status >= 200 && response.status <= 299) {
       const data = await response.json()

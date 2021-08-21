@@ -18,3 +18,12 @@
     max-width: 800px;
     margin:100px auto 0 auto;
 }
+
+.product__image-display, .product__data {
+    flex:1;
+    max-width:400px;
+}
+
+.product__data__buy {
+    display: block;
+}
