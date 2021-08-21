@@ -11,6 +11,7 @@ function SizeSelect({ sizes, currentSize, setCurrentSize }) {
       <label>
         Sizes 
         <select
+        className="size-select"
           value={currentSize}
           onChange={handleSizeChange}
           name="size"

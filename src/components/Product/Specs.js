@@ -2,7 +2,7 @@ import React from "react"
 
 function Specs({ specs }) {
   return specs.length > 0 ? (
-    <ul>
+    <ul className="specs">
       {specs.map((item, i) => (
         <li key={i}>{item}</li>
       ))}
