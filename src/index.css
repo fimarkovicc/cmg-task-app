@@ -3,7 +3,7 @@
     padding: 0;
 }
 
-.loading {
+.loading, .err {
     position: fixed;
     top: 50%;
     left: 50%;
