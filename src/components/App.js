@@ -1,8 +1,8 @@
 import React from "react"
-import Product from "./Product"
+import ProductContainer from "./Product/ProductContainer"
 
 function App() {
-  return <Product />
+  return <ProductContainer />
 }
 
 export default App

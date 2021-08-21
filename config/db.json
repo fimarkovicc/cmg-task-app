@@ -2,7 +2,7 @@
   "products": [
     {
       "id": 1,
-      "title": "Duis aute irure",
+      "title": "Excepteur sint occaecat",
       "desc": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore.",
       "specs": [
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
@@ -11,7 +11,8 @@
         "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium",
         "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum"
       ],
-      "sizes": [
+      "sizes": [14, 28],
+      "images": [
           {
             "size": 14, 
             "images": [
